@@ -10,7 +10,7 @@
     </head>
     <body>
         @include('layout.LayoutHeader')
-        @yield('content')
+        @yield('LayoutBody')
         @include('layout.LayoutFooter')
     </body>
 </html>

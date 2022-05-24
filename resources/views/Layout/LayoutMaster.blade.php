@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3a5cec123c.js" crossorigin="anonymous"></script>
-        <title>@yield('title')</title>
+        @yield('title')
     </head>
     <body>
         @include('layout.LayoutHeader')

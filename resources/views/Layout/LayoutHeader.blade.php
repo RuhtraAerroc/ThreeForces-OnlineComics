@@ -14,8 +14,9 @@
             <div class="col-span-1 flex justify-center items-center font-bold hover:bg-violet-900 hover:rounded-t-lg hover:border-b-8"><a href="#">BIBLIOTECA</a></div>
             <div class="col-span-1"></div>
         </div>
-        <div class="col-span-1 grid grid-cols-5">
-            <div class="col-span-1"></div>
+        <div class="col-span-1 grid grid-cols-5 w-full h-full">
+            {{-- AUTHORIZED USER --}}
+            {{-- <div class="col-span-1"></div>
             <button class="col-span-1 flex justify-center items-center font-bold hover:bg-violet-900 hover:rounded-t-lg hover:border-b-8" name="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
@@ -25,7 +26,13 @@
             <button class="col-span-1 flex justify-center items-center font-bold hover:bg-violet-900 hover:rounded-t-lg hover:border-b-8" name="profile">
                 <i class="fa-solid fa-user"></i>
             </button>
-            <div class="col-span-1"></div>
+            <div class="col-span-1"></div> --}}
+            {{-- UNAUTHORIZED USER --}}
+            <button class="col-span-1 flex justify-center items-center font-bold hover:bg-violet-900 hover:rounded-t-lg hover:border-b-8" name="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <div class="col-span-2 flex justify-center items-center font-bold hover:bg-violet-900 hover:rounded-t-lg hover:border-b-8"><a href="#">ENTRAR</a></div>
+            <div class="col-span-2 flex justify-center items-center font-bold hover:bg-violet-900 hover:rounded-t-lg hover:border-b-8"><a href="#">CADASTRAR</a></div>
         </div>
     </div>
     {{-- SEARCH --}}

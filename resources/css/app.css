@@ -7,6 +7,5 @@
         font-family: 'Oswald', sans-serif;
     }
 }
-.button{
-    @apply flex justify-center items-center font-bold rounded-lg p-2 text-violet-50 bg-violet-900 hover:bg-violet-700
-}
+.button{ @apply flex justify-center items-center font-bold rounded-lg p-4 text-violet-50 bg-violet-900 hover:bg-violet-600 }
+.border-model{ @apply p-4 rounded-lg border-2 border-violet-300 }
